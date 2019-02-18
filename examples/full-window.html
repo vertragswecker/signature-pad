@@ -41,7 +41,7 @@
   </style>
   <link rel="stylesheet" href="../assets/jquery.signaturepad.css">
   <!--[if lt IE 9]><script src="../assets/flashcanvas.js"></script><![endif]-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 </head>
 <body>
 	<form method="POST" action="">
@@ -51,6 +51,8 @@
 		</fieldset>
 	</form>
 
+  <script src="../assets/numeric-1.2.6.min.js"></script>
+  <script src="../assets/bezier.js"></script>
   <script src="../jquery.signaturepad.js"></script>
   <script>
   (function(window) {
@@ -69,6 +71,8 @@
       onResize();
 
       $('form').signaturePad({
+        drawBezierCurves: true,
+        variableStrokeWidth:true,
         drawOnly: true,
         defaultAction: 'drawIt',
         validateFields: false,

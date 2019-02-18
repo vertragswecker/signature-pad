@@ -1,23 +1,5 @@
 # Changelog
 
-**2.5.2 (Dec. 22, 2014)**
-
-- Merged [Pull Request #124](https://github.com/thomasjbradley/signature-pad/issues/124) to fix a missing semi-colon at the end.
-
-**2.5.1 (Apr. 15, 2014)**
-
-- Fixed a bug in IE 8 related to `trim()`, [Issue #113](https://github.com/thomasjbradley/signature-pad/issues/113)
-
-**2.5.0 (Oct. 16, 2013)**
-
-- Added an API to retrieve the version programmatically, [Issue #96](https://github.com/thomasjbradley/signature-pad/issues/96)
-
-**2.4.2 (Sep. 25, 2013)**
-
-- Fixed a bug where onDrawEnd wasn’t firing properly on touch devices, [Issue #92](https://github.com/thomasjbradley/signature-pad/issues/92)
-- Changed a CSS selector for better Windows 8 support, [Issue #91](https://github.com/thomasjbradley/signature-pad/issues/91)
-- Fixed a bug where right clicking would cause a dot to be drawn, [Issue #80](https://github.com/thomasjbradley/signature-pad/issues/80)
-
 **2.4.1 (Jul. 26, 2013)**
 
 - Fixed a bug where onDrawEnd was firing too often and at incorrect times, [Issue #84](https://github.com/thomasjbradley/signature-pad/issues/84)
